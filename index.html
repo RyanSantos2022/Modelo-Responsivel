@@ -12,13 +12,27 @@
 
 <body>
     <header>
+        <nav>
+            <a href="#">LINK 1</a>
+            <a href="#">LINK 2</a>
+            <a href="#">LINK 3</a>
+        </nav>
         <h3>TECTREINAMENTOS INFORMÁTICA</h3
             <h4>Desenvolvimento Web</h4>
     </header>
+    <div id="compras">
+        <h4>Caixa de compras</h4>
+        <button>COMPRAR AGORA</button>
+    </div>
     <br>
 
-    <section class="conteudo">
+    <section class="conteudo-topo">
         <h1>Este é o primeiro titulo</h1>
+
+        <figure>
+            <img class="imagens-site" src="./img/imagem-exemplo.png" alt="Primeira imagem do site">
+            <figcaption>Legenda para imagem</figcaption>
+        </figure>
         <p>
             Análise de sistemas é a atividade que tem como finalidade a realização de estudos de processos a fim de encontrar o melhor caminho racional para que a informação possa ser processada. Os analistas de sistemas estudam os diversos sistemas existentes entre hardwares (equipamentos), softwares (programas) e o usuário final.
 
@@ -35,6 +49,10 @@
     <br>
     <section class="conteudo">
         <h2>Esté o o terceiro titulo</h2>
+        <figure>
+            <img class="imagens-site" src="/img/imagem-exemplo.png" alt="Segunda Imagem">
+            <figcaption>Segunda Imagem</figcaption>
+        </figure>
         <p>
             Como é uma ênfase, o foco e o núcleo de trabalho está voltado para o processo de desenvolvimento de software, levando em conta a área tecnológica em que irá auxiliar. O analista de sistemas deve servir como um tradutor entre as necessidades do usuário e o programa a ser desenvolvido pelo programador. Para isto, deve ter conhecimento abrangente da área de negócio na qual o sistema será desenvolvido, a fim de que possa implementar corretamente as regras de negócio.
         </p>
@@ -49,6 +67,58 @@
     </section>
     <br>
 
+    <section class="conteudo" id="grid-conteudo">
+        
+        <div class="grid">
+            <div>conteudo 1</div>
+            <div>conteudo 2</div>
+            <div>conteudo 3</div>
+            <div>conteudo 4</div>
+            <div>conteudo 5</div>
+            <div>conteudo 6</div>
+        </div>
+        <br>
+    </section>
+    <br>
+    <section class="conteudo" id="formulario">
+
+        <h2>Selecione um produto para mais informações</h2>
+        <br>
+        <form action="#" method="get" target="_blank">
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome">
+            <br>
+            <br>
+            <label for="telefone">Telefone</label><br>
+            <input type="tel" id="tel" name="tel" placeholder="Digite seu cel com ddd">
+            <br>
+            <br>
+            <input type="checkbox" id="opcoes" name="html" value="html">
+            <label for="html">Quero saber mais sobre HTML e CSS</label>
+            <br>
+            <br>
+            <input type="checkbox" id="opcoes" name="php" value="php">
+            <label for="php">Quero saber mais sobre HTML,CSS e PHP</label>
+            <br>
+            <br>
+            <input type="checkbox" id="opcoes" name="javascript" value="javascript">
+            <label for="javascript">Quero saber mais sobre HTML,CSS e javascript</label>
+            <br>
+            <br>
+            <label for="mensagem">Deixe a sua mensagem (opcional):</label>
+            <br>
+            <br>
+            <textarea id="mensagem" rows="5" cols="25"></textarea>
+            <br>
+            <br>
+            <button id="btn-limpar" type="reset" value="LIMPAR">LIMPAR</button>&nbsp;
+            <button id="btn-enviar" type="submit" value="ENVIAR">ENVIAR</button>
+
+
+        </form>
+
+    </section>
+    <br>
     <footer>
         <h3>TECTREINAMENTOS INFORMÁTICA</h3>
         <h4>Desenvolvimento Web</h4>
